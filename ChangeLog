@@ -1,0 +1,107 @@
+2014-03-06  Kamil Kisiel  <kamil@kamilkisiel.net>
+
+	* Merge pull request #11 from adammck/add_getall
+
+2014-03-06  Adam Mckaig  <adam.mckaig@gmail.com>
+
+	* Add tests for GetAllOk
+
+2014-03-06  Adam Mckaig  <adam.mckaig@gmail.com>
+
+	* Fix docstring
+
+2013-07-15  Pieter Joost van de Sande  <pj@born2code.net>
+
+	* Return map instead of pointer value
+
+2013-07-15  Pieter Joost van de Sande  <pj@born2code.net>
+
+	* Remove GetAllOk method and GetAll now returns nil for invalid request
+
+2013-07-14  Pieter Joost van de Sande  <pj@born2code.net>
+
+	* Adds GetAllOk
+
+2013-07-13  Pieter Joost van de Sande  <pj@born2code.net>
+
+	* Return empty map when there are no values
+
+2013-07-13  Pieter Joost van de Sande  <pj@born2code.net>
+
+	* Adds test for GetAll for empty request
+
+2013-07-13  Pieter Joost van de Sande  <pj@born2code.net>
+
+	* Adds test for GetAll for existing request
+
+2013-07-13  pjvds  <pj@born2code.net>
+
+	* Adds GetAll method
+
+2013-12-04  Kamil Kisiel  <kamil@kamilkisiel.net>
+
+	* Add go 1.2 to travis.yml
+
+2013-11-30  Kamil Kisiel  <kamil@kamilkisiel.net>
+
+	* Add Travis badge
+
+2013-11-30  Kamil Kisiel  <kamil@kamilkisiel.net>
+
+	* Merge branch 'master' of github.com:gorilla/context
+
+2013-11-30  Kamil Kisiel  <kamil@kamilkisiel.net>
+
+	* Add travis.yml
+
+2013-11-29  Kamil Kisiel  <kamil@kamilkisiel.net>
+
+	* Merge pull request #8 from andrewsmedina/gofmt
+
+2013-11-29  Andrews Medina  <andrewsmedina@gmail.com>
+
+	* go fmt.
+
+2013-05-30  rodrigo moraes  <rodrigo.moraes@gmail.com>
+
+	* Merge pull request #5 from DmitryBochkarev/GetOk
+
+2013-05-30  Dmitry Bochkarev  <dimabochkarev@gmail.com>
+
+	* fix doc.go
+
+2013-05-30  Dmitry Bochkarev  <dimabochkarev@gmail.com>
+
+	* GetOk(r, key) (value, ok)
+
+2013-04-09  rodrigo moraes  <rodrigo.moraes@gmail.com>
+
+	* Update README.md
+
+2013-03-20  Kamil Kisiel  <kamil@kamilkisiel.net>
+
+	* Fix up grammar in docs.
+
+2013-03-20  Kamil Kisiel  <kamil@kamilkisiel.net>
+
+	* Revert "Added a Context type for non-global contexts."
+
+2013-03-20  Kamil Kisiel  <kamil@kamilkisiel.net>
+
+	* Merge commit 'cdee84d'
+
+2013-03-20  Kamil Kisiel  <kamil@kamilkisiel.net>
+
+	* Documented that gorilla/pat also clears the context as of 9ff7555
+
+2012-12-19  Kamil Kisiel  <kamil@kamilkisiel.net>
+
+	* Added a Context type for non-global contexts.
+
+2012-10-03  moraes  <rodrigo.moraes@gmail.com>
+
+	* Initial files.
+
+2012-10-02  rodrigo moraes  <rodrigo.moraes@gmail.com>
+
+	* Initial commit
