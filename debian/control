@@ -1,0 +1,16 @@
+Source: golang-context
+Section: devel
+Priority: extra
+Maintainer: Lance Cooper <lance@struktur.de>
+Build-Depends: debhelper (>= 8.0.0),
+               dh-golang,
+               golang-go (>= 1.0)
+Standards-Version: 3.9.3
+
+Package: golang-context-dev
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: A golang registry for global request variables.
+  The gorilla/context package is a general purpose registry
+  for global request variables. Read the full documentation
+  at: http://www.gorillatoolkit.org/pkg/context .
