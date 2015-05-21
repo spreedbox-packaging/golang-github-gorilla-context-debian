@@ -1,3 +1,51 @@
+2014-12-17  Kamil Kisiel  <kamil@kamilkisiel.net>
+
+	* Merge pull request #20 from areski/pr-fix-test-version
+
+2014-12-17  areski  <areski@gmail.com>
+
+	* Add Travis-ci tests build on Go version 1.3 / 1.4
+
+2014-11-26  Kamil Kisiel  <kamil@kamilkisiel.net>
+
+	* benchmark: fix parallelWriter.
+
+2014-06-04  Kamil Kisiel  <kamil@kamilkisiel.net>
+
+	* Merge pull request #14 from LK4D4/fix_race_in_get
+
+2014-06-04  Alexandr Morozov  <lk4d4math@gmail.com>
+
+	* Fix racy code in Get
+
+2014-05-22  Kamil Kisiel  <kamil@kamilkisiel.net>
+
+	* Return a shallow copy of the result in GetAll and GetAllOk.
+
+2014-05-20  Kamil Kisiel  <kamil@kamilkisiel.net>
+
+	* Merge pull request #12 from tylerb/master
+
+2014-05-20  Tyler Bunnell  <tylerbunnell@gmail.com>
+
+	* More comprehensive benchmarking
+
+2014-05-19  Tyler Bunnell  <tylerbunnell@gmail.com>
+
+	* Fix golint warning
+
+2014-05-19  Tyler Bunnell  <tylerbunnell@gmail.com>
+
+	* Remove defer
+
+2014-05-19  Tyler Bunnell  <tylerbunnell@gmail.com>
+
+	* Switch to RWMutex
+
+2014-05-19  Tyler Bunnell  <tylerbunnell@gmail.com>
+
+	* Add mutex benchmark
+
 2014-03-06  Kamil Kisiel  <kamil@kamilkisiel.net>
 
 	* Merge pull request #11 from adammck/add_getall
