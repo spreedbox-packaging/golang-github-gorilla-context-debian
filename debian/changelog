@@ -1,3 +1,9 @@
+golang-context (1.0~git20150521-1+struktur0) precise; urgency=low
+
+  * Update to latest upstream sources.
+
+ -- Lance Cooper <lance@struktur.de>  Thu, 21 May 2015 05:39:01 -0500
+
 golang-context (0.0+git20140312-2) precise; urgency=low
 
   * Rebuild against fixed dh-golang.
