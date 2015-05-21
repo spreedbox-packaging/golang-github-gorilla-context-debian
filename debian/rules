@@ -9,9 +9,9 @@
 # Uncomment this to turn on verbose mode.
 export DH_VERBOSE=1
 
-# GOPKG is the upstream path which you would normally "go get".
+# DH_GOPKG is the upstream path which you would normally "go get".
 # Using it allows us to build applications without patching locations.
-GOPKG := github.com/gorilla/context
+export DH_GOPKG := github.com/gorilla/context
 
 # Temporary working directory to which the source will be copied, then
 # compiled.
@@ -48,11 +48,11 @@ $(PKG)_$(VER)$(DTYPE).orig.tar.xz: $(info I: UDATE=$(UDATE))
 		&& $(RM) -r "$(PKG)-$(VER)"
 
 override_dh_auto_install:
-	mkdir -p ${TMPGOPATH}/src/${GOPKG}
+	mkdir -p ${TMPGOPATH}/src/${DH_GOPKG}
 # Copy all .go files to /usr/share/gocode (we compile and ship).
-	find . -path ./debian -prune -o -type f -name "*.go" -exec tar cf - {} + | (cd "${TMPGOPATH}/src/${GOPKG}" && tar xvf -)
+	find . -path ./debian -prune -o -type f -name "*.go" -exec tar cf - {} + | (cd "${TMPGOPATH}/src/${DH_GOPKG}" && tar xvf -)
 
 %:
-	dh $@ --with=golang
+	dh $@ --buildsystem=golang --with=golang
 
 .PHONY: get-orig-source
